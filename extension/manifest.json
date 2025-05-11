@@ -1,0 +1,38 @@
+{
+  "name": "Simplificador de Linguagem",
+  "version": "1.0",
+  "description": "Corrige palavras complexas para linguagem simples.",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": [
+      "http://*/*",
+      "https://*/*",
+      "https://mail.google.com/*",
+      "https://docs.google.com/*"
+    ],
+    "js": ["content.js"],
+    "css": ["style.css"],
+    "all_frames": true,
+    "run_at": "document_end"
+  }],
+  "host_permissions": [
+    "https://*.google.com/*"
+  ],
+  "permissions": [
+    "storage",
+    "scripting",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_icon": "icons/icon16.png",
+    "default_popup": "options.html"
+  },
+  "web_accessible_resources": [{
+    "resources": ["glossary.json"],
+    "matches": ["<all_urls>"]
+  }],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
