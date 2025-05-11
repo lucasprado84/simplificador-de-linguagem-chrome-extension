@@ -1,0 +1,34 @@
+{
+  "words": {
+    "a posteriori": ["depois", "posteriormente", "após a experiência"],
+    "a priori": ["antes", "previamente", "antes da experiência"],
+    "ab initio": ["desde o começo", "do início"],
+    "abdicar": ["desistir", "renunciar", "abrir mão de"],
+    "abnegação": ["sacrifício", "dedicação", "desprendimento"],
+    "abrupto": ["repentino", "súbito", "inesperado"],
+    "abstrato": ["teórico", "não concreto", "ideal"],
+    "acepção": ["significado", "sentido", "interpretação"],
+    "acirrado": ["intenso", "forte", "disputado"],
+    "acórdão": ["decisão do tribunal", "decisão de vários juízes"],
+    "ação civil pública": ["processo coletivo", "ação para proteger interesses da sociedade"],
+    "ação de alimentos": ["pedido de pensão alimentícia"],
+    "ação de despejo": ["pedido para desocupar imóvel alugado"],
+    "ação de divórcio": ["pedido de separação legal"],
+    "ação de execução": ["cobrança judicial de dívida"],
+    "ação de guarda": ["pedido para definir quem cuida da criança/adolescente"],
+    "ação de indenização": ["pedido de reparação por danos"],
+    "ação de inventário": ["processo para dividir herança"],
+    "ação monitória": ["ação para cobrar dívida com prova escrita"],
+    "ação penal": ["processo criminal", "processo por crime"],
+    "ação revisional": ["pedido para rever cláusulas de contrato"]
+  },
+  "rules": {
+    "simpleWords": "Use palavras simples e diretas",
+    "avoidAcronyms": "Evite siglas, termos estrangeiros e termos técnicos",
+    "shortSentences": "Use frases curtas com 20-25 palavras",
+    "directOrder": "Use ordem direta: Sujeito > Verbo > Complemento",
+    "activeVoice": "Use verbos na voz ativa para expressar ação",
+    "inclusiveLanguage": "Evite termos discriminatórios, use linguagem inclusiva",
+    "sentenceLength": 25
+  }
+}
